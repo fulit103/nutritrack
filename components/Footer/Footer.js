@@ -63,7 +63,7 @@ export const Footer = () => {
                             <div className="footer--logo grid gap-8">
                                 <Link href="/">
                                     <Image
-                                        src="/nutritrack.svg"
+                                        src="/ferrero-machines-logo.png"
                                         alt="logo"
                                         className="h-10 w-auto"
                                         height="25"
@@ -78,7 +78,7 @@ export const Footer = () => {
                                         href="https://github.com/christian-luntok/nutritrack"
                                         className="btn btn--secondary"
                                     >
-                                        Get Template
+                                        Mas Información
                                         <Icon icon="material-symbols:arrow-forward-rounded" />
                                     </a>
                                 </ButtonGroup>

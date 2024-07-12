@@ -6,17 +6,17 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Effortless Planning",
+        title: "Fácil de usar y eficiente",
         content:
-            "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
+            "La máquina no requiere compresor ni elementos neumáticos, es compacta y fácil de instalar, solo necesitas conectarla a la electricidad. Un solo operario puede producir hasta 720 empanadas por hora, y con dos operarios adicionales, la producción puede escalar hasta 2,160 empanadas por hora.",
         align: "right",
         image: "/features1.png"
     },
     {
         id: uuid(),
-        title: "Shopping List",
+        title: "Optimiza tu productividad y bienestar laboral",
         content:
-            "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
+            "La máquina elimina la necesidad de esfuerzo físico para armar empanadas, reduciendo dolores musculares. Es una herramienta ideal para aumentar la producción sin complicaciones.",
         align: "left",
         image: "/features2.png"
     }
