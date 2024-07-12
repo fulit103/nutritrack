@@ -21,7 +21,7 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="NutriTrack - A landing page template 🚀"
+                title="Ferrero Machines - Maquina para hacer empanadas 🚀"
                 description="Discover NutriTrack, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
@@ -35,22 +35,17 @@ export default function Home() {
                     >
                         <SectionContainer id="features" className="features">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>Features</BadgeMessage>
+                                <BadgeMessage>Beneficios</BadgeMessage>
                             </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Simplify Your Nutrition Journey with NutriTrack
+                                Beneficios de nuestras máquinas
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Hey there! Welcome to NutriTrack, the
-                                    ultimate nutrition meal planner powered by
-                                    Notion. We&apos;ve got some awesome features
-                                    lined up to make your nutrition journey a
-                                    piece of cake (pun intended). Check them
-                                    out:
+                                    Nuestras máquinas son compactas, fáciles de usar y ultra rápidas, produciendo desde 720 empanadas por hora sin necesidad de compresor. ¡Escala tu producción sin esfuerzo y reduce los costos con nuestras soluciones innovadoras!:
                                 </p>
                             </Content>
                             <ContentImage />
@@ -62,23 +57,18 @@ export default function Home() {
                     >
                         <SectionContainer className="feature-tabs">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>More Features</BadgeMessage>
+                                <BadgeMessage>Características</BadgeMessage>
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Master Your Meal Planning and Nutrition Journey
+                                Innovación en la Producción de Empanadas y Arepas
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Our comprehensive Notion template designed
-                                    to empower you on your meal planning and
-                                    nutrition journey. With our user-friendly
-                                    features, customizable layouts, and seamless
-                                    recipe integration, taking control of your
-                                    meals has never been easier.
+                                    Automatización completa, bajo consumo energético, producción escalable, y fácil operación con accesorios desarrollados continuamente.
                                 </p>
                             </Content>
                             <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
@@ -89,18 +79,42 @@ export default function Home() {
                                             alt="Customizable Layouts image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Customizable Layouts
+                                            Características Principales
                                         </CardHeader>
-                                        <p>
-                                            Personalize your meal planning
-                                            experience with our flexible
-                                            layouts. Tailor your sections,
-                                            categories, and tabs to suit your
-                                            unique style and organization
-                                            preferences. Our template adapts to
-                                            your needs, providing a seamless and
-                                            personalized planning experience.
-                                        </p>
+                                        <div className="space-y-2">
+                                            
+                                            <div className="space-y-2">
+                                                <div className="flex items-start">
+                                                    <span className="mr-2 text-green-500">✓</span>
+                                                    <p>Equipadas con moldes intercambiables, ideales para hacer empanadas, pasteles, arepas de huevo, y más.</p>
+                                                </div>
+                                                <div className="flex items-start">
+                                                    <span className="mr-2 text-green-500">✓</span>
+                                                    <p>Sistema 100% eléctrico que garantiza menor consumo de energía y operación silenciosa.</p>
+                                                </div>
+                                                <div className="flex items-start">
+                                                    <span className="mr-2 text-green-500">✓</span>
+                                                    <p>Permiten ajustar el grosor de la masa entre 1 mm y 10 mm.</p>
+                                                </div>
+                                                <div className="flex items-start">
+                                                    <span className="mr-2 text-green-500">✓</span>
+                                                    <p>Producen empanadas de hasta 18 cm de longitud y arepas de hasta 20 cm de diámetro.</p>
+                                                </div>
+                                                <div className="flex items-start">
+                                                    <span className="mr-2 text-green-500">✓</span>
+                                                    <p>Fabricadas con materiales aprobados para la industria alimenticia.</p>
+                                                </div>
+                                                <div className="flex items-start">
+                                                    <span className="mr-2 text-green-500">✓</span>
+                                                    <p>Máquinas compactas adecuadas para cualquier mesa de cocina estándar.</p>
+                                                </div>
+                                                <div className="flex items-start">
+                                                    <span className="mr-2 text-green-500">✓</span>
+                                                    <p>Vienen con una garantía de 12 meses.</p>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
                                     </CardBody>
                                 </Card>
                                 <Card className="col-span-1 text-primary-900">
@@ -110,18 +124,36 @@ export default function Home() {
                                             alt="Progress Tracking image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Progress Tracking
+                                            Innovación y Eficiencia
                                         </CardHeader>
-                                        <p>
-                                            Celebrate your wins and stay
-                                            motivated on your nutrition journey.
-                                            NutriTrack allows you to monitor
-                                            your progress with weight,
-                                            measurements, and other key metrics.
-                                            Track your improvements over time
-                                            and see the positive impact of your
-                                            healthy choices.
-                                        </p>
+                                        <div className="space-y-2">
+                                            <div className="space-y-2">
+                                                <div className="flex items-start">
+                                                    <span className="mr-2 text-green-500">✓</span>
+                                                    <p>Automatización completa: laminado, corte, sellado, realimentación de sobrantes y traslado de empanadas.</p>
+                                                </div>
+                                                <div className="flex items-start">
+                                                    <span className="mr-2 text-green-500">✓</span>
+                                                    <p>Funciones automáticas de doblado de masa y dosificación de relleno (accesorios disponibles).</p>
+                                                </div>
+                                                <div className="flex items-start">
+                                                    <span className="mr-2 text-green-500">✓</span>
+                                                    <p>Consumo energético menor a 300W con velocidad ajustable: produce hasta 720 empanadas por hora con un operario.</p>
+                                                </div>
+                                                <div className="flex items-start">
+                                                    <span className="mr-2 text-green-500">✓</span>
+                                                    <p>Escalabilidad sin inversiones adicionales: hasta 2,160 empanadas por hora con múltiples operarios.</p>
+                                                </div>
+                                                <div className="flex items-start">
+                                                    <span className="mr-2 text-green-500">✓</span>
+                                                    <p>Operación simple y cómoda con desarrollo continuo de nuevos accesorios.</p>
+                                                </div>
+                                                <div className="flex items-start">
+                                                    <span className="mr-2 text-green-500">✓</span>
+                                                    <p>Última tecnología en fabricación de alimentos con menos esfuerzo y dependencia de mano de obra.</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </CardBody>
                                 </Card>
                             </CardGroup>
@@ -136,12 +168,11 @@ export default function Home() {
                             className="benefits"
                         >
                             <BadgeGroup alignment="left">
-                                <BadgeMessage>Testimonials</BadgeMessage>
+                                <BadgeMessage>Testimonios</BadgeMessage>
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
                             <PageTitle className="" type="default">
-                                This is what our customers have to say about
-                                this template
+                                Esto es lo que nuestros clientes tienen que decir sobre nuestras máquinas
                             </PageTitle>
                             <Columns />
                         </SectionContainer>
@@ -152,16 +183,16 @@ export default function Home() {
                     >
                         <SectionContainer id="faq" className="faq">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>FAQ</BadgeMessage>
+                                <BadgeMessage>Preguntas Frequentes</BadgeMessage>
                             </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Got some burning questions about NutriTrack?{" "}
-                                <br></br>
-                                <br></br>No worries! We&apos;ve got the answers
-                                you need:
+                                ¿Tienes algunas preguntas urgentes sobre nuestras Máquinas?          
+                                <br />
+                                <br />
+                                ¡No te preocupes! Tenemos las respuestas que necesitas:
                             </PageTitle>
                             <Accordion />
                         </SectionContainer>

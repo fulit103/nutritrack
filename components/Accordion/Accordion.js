@@ -7,30 +7,101 @@ import clsx from "clsx";
 const accordionData = [
     {
         id: uuid(),
-        title: "What is Notion?",
+        title: "¿Cuántas empanadas puede producir la máquina por hora?",
         isOpen: true,
         content:
-            "Notion is an all-in-one productivity tool that allows you to create notes, databases, and collaborative workspaces, making it easy to organize and manage your tasks, projects, and ideas in one place."
+            "Nuestra máquina puede producir hasta 720 empanadas por hora con un solo operario. Con dos operarios adicionales, la producción puede escalar hasta 2,160 empanadas por hora."
     },
     {
         id: uuid(),
-        title: "Who is this template for?",
+        title: "¿La máquina requiere un compresor o elementos neumáticos?",
         isOpen: false,
         content:
-            "This template is specifically designed for Notion creators who want to create a personalized landing page for their Notion workspace, showcasing their projects, services, or content in a visually appealing manner."
+            "No, nuestra máquina no requiere compresor ni elementos neumáticos. Es completamente eléctrica y solo necesita ser conectada a la electricidad para comenzar a operar."
     },
     {
         id: uuid(),
-        title: "Do I need to pay for this?",
+        title: "¿Es difícil de usar la máquina?",
         isOpen: false,
-        content: "No, this is free."
+        content: "No, nuestra máquina es muy fácil de usar. Está diseñada para ser operada de manera sencilla, permitiendo que un solo operario pueda manejarla sin complicaciones. Además, es compacta y fácil de instalar."
     },
     {
         id: uuid(),
-        title: "Where can I ask more questions about this template?",
+        title: "¿Qué tipos de alimentos puedo hacer con esta máquina?",
         isOpen: false,
         content:
-            "If you have any further questions or need assistance regarding this template, please feel free to reach out to me on my website, or click the Contact within the navigation links."
+            "Nuestra máquina está equipada con moldes intercambiables que permiten hacer una variedad de alimentos, incluyendo empanadas, pasteles, arepas de huevo, y más."
+    },
+    {
+        id: uuid(),
+        title: "¿Qué tipos de alimentos puedo hacer con esta máquina?",
+        isOpen: false,
+        content:
+            "Nuestra máquina está equipada con moldes intercambiables que permiten hacer una variedad de alimentos, incluyendo empanadas, pasteles, arepas de huevo, y más."
+    },
+    {
+        id: uuid(),
+        title: "¿Cuáles son las dimensiones de los alimentos que puede producir la máquina?",
+        isOpen: false,
+        content:
+            "La máquina puede producir empanadas de hasta 18 cm de longitud y arepas de hasta 20 cm de diámetro. Además, permite ajustar el grosor de la masa entre 1 mm y 10 mm."
+    },
+    {
+        id: uuid(),
+        title: "¿Cuánta energía consume la máquina?",
+        isOpen: false,
+        content:
+            "Nuestra máquina tiene un consumo energético menor a 300W, lo que la hace muy eficiente en términos de energía."
+    },
+    {
+        id: uuid(),
+        title: "¿La máquina es ruidosa durante su operación?",
+        isOpen: false,
+        content:
+            "No, la máquina está diseñada para operar de manera silenciosa, garantizando un ambiente de trabajo cómodo."
+    },
+    {
+        id: uuid(),
+        title: "¿Qué materiales se utilizan en la fabricación de la máquina?",
+        isOpen: false,
+        content:
+            "Nuestras máquinas están fabricadas con materiales aprobados para la industria alimenticia, garantizando seguridad y calidad en la producción de alimentos."
+    },
+    {
+        id: uuid(),
+        title: "¿La máquina viene con alguna garantía?",
+        isOpen: false,
+        content:
+            "Sí, nuestras máquinas vienen con una garantía de 12 meses, asegurando la tranquilidad de nuestros clientes."
+    },
+    {
+        id: uuid(),
+        title: "¿Se pueden adquirir accesorios adicionales para la máquina?",
+        isOpen: false,
+        content:
+            "Sí, continuamente desarrollamos nuevos accesorios para nuestras máquinas, incluyendo funciones automáticas de doblado de masa y dosificación de relleno.",
+
+    },
+    {
+        id: uuid(),
+        title: "¿Qué debo hacer si tengo problemas con la máquina?",
+        isOpen: false,
+        content:
+            "Si tienes algún problema con la máquina, puedes contactar a nuestro equipo de soporte técnico, que estará encantado de ayudarte a resolver cualquier inconveniente."
+    },
+    {
+        id: uuid(),
+        title: "¿Cuál es el tiempo de entrega de la máquina?",
+        isOpen: false,
+        content:
+            "El tiempo de entrega de la máquina es de 30 días hábiles a partir de la confirmación del pedido."
+    },
+    {
+        id: uuid(),
+        title: "¿Cuál es la forma de pago de la máquina?",
+        isOpen: false,
+        content:
+            "Aceptamos pagos en efectivo, transferencia bancaria y tarjetas de crédito. Además, ofrecemos financiamiento a través de nuestro socio financiero."
     }
 ];
 
