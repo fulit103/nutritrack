@@ -27,7 +27,7 @@ export const HomeBanner = () => {
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-                            <div data-tf-live="01J2M01VR1SXTJZVBPZKRNSG3C"></div><script src="//embed.typeform.com/next/embed.js"></script>
+                            <div data-tf-live="01J2M01VR1SXTJZVBPZKRNSG3C"></div>
                             {/* <Button href="#features">Caracteristicas</Button>
                             <a
                                 role="button"

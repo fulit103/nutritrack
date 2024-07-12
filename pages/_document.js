@@ -8,6 +8,7 @@ export default function Document() {
                 <Main />
                 <NextScript />
             </body>
+            <script src="//embed.typeform.com/next/embed.js"></script>
         </Html>
     );
 }
