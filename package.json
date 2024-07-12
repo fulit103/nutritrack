@@ -33,6 +33,7 @@
         "@iconify-icons/fa": "^1.2.4",
         "@iconify/react": "^4.0.1",
         "@next/font": "^13.1.2",
+        "@typeform/embed-react": "^3.19.0",
         "@vercel/og": "^0.0.21",
         "eslint-config-next": "13.1.2",
         "framer-motion": "^10.11.2",

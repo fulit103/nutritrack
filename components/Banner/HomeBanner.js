@@ -7,6 +7,7 @@ import { PageTitle } from "@components/Title";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import { ModalVideo } from "@components/ModalVideo";
+import { SliderButton } from '@typeform/embed-react'
 
 export const HomeBanner = () => {
     return (
@@ -27,7 +28,10 @@ export const HomeBanner = () => {
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-                            <div data-tf-live="01J2M01VR1SXTJZVBPZKRNSG3C"></div>
+                            
+                            <SliderButton id="GhZiV4sJ" style={{ fontSize: 20 }} className="btn btn--secondary">
+                                Solicitar Cotización
+                            </SliderButton>
                             {/* <Button href="#features">Caracteristicas</Button>
                             <a
                                 role="button"
