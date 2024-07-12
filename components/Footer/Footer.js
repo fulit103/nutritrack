@@ -7,43 +7,38 @@ import { Icon } from "@iconify/react";
 
 const DATA = [
     {
-        title: "Template",
+        title: "Máquinas",
         items: [
             {
-                label: "Features",
+                label: "Características",
                 href: "#features"
             },
             {
-                label: "Testimonials",
+                label: "Testimonios",
                 href: "#testimonials"
             },
             {
-                label: "FAQ",
+                label: "Preguntas Frequentes",
                 href: "#faq"
             }
         ]
     },
     {
-        title: "Company",
+        title: "Compañia",
         items: [
             {
-                label: "About",
-                href: "https://github.com/christian-luntok/",
-                target: "_blank"
-            },
-            {
-                label: "Twitter",
-                href: "https://github.com/christian-luntok/",
+                label: "Acerca De",
+                href: "https://www.ferrero-machines.com/",
                 target: "_blank"
             },
             {
                 label: "Instagram",
-                href: "https://github.com/christian-luntok/",
+                href: "https://www.instagram.com/ferrero_machines/",
                 target: "_blank"
             },
             {
                 label: "Facebook",
-                href: "https://github.com/christian-luntok/",
+                href: "https://www.facebook.com/FerreroFoodMachines/",
                 target: "_blank"
             }
         ]
@@ -131,7 +126,7 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} Nutritrack. All rights reserved{" - "}
+                        © {year} Ferrero Machines. All rights reserved{" - "}
                         <span className="font-normal">
                             A template by{" "}
                             <Link
