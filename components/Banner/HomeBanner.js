@@ -6,6 +6,7 @@ import { SectionContainer } from "@components/Section";
 import { PageTitle } from "@components/Title";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
+import { ModalVideo } from "@components/ModalVideo";
 
 export const HomeBanner = () => {
     return (
@@ -26,7 +27,8 @@ export const HomeBanner = () => {
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-                            <Button href="#features">Caracteristicas</Button>
+                            <div data-tf-live="01J2M01VR1SXTJZVBPZKRNSG3C"></div><script src="//embed.typeform.com/next/embed.js"></script>
+                            {/* <Button href="#features">Caracteristicas</Button>
                             <a
                                 role="button"
                                 href="https://github.com/christian-luntok/nutritrack"
@@ -34,13 +36,13 @@ export const HomeBanner = () => {
                             >
                                Mas Información
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
-                            </a>
+                            </a> */}
                         </ButtonGroup>
                     </div>
                 </MotionBTTContainer>
                 {/* Appear Fourth */}
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
-                    <div className="page-banner--image">
+                    <div className="page-banner--image flex justify-center items-center">
                         {/* <Image
                             src="/nutritrack-hero-banner.png"
                             width={1024}
@@ -49,6 +51,13 @@ export const HomeBanner = () => {
                             objectFit="cover"
                             className="mx-auto"
                         /> */}                        
+                        <ModalVideo
+                            thumbWidth={768}
+                            thumbHeight={432}
+                            thumbAlt="Modal video thumbnail"
+                            video="/ferrero-machines.mp4"
+                            videoWidth={1920}
+                            videoHeight={1080} />
                     </div>
                 </MotionBTTContainer>
             </SectionContainer>
