@@ -16,6 +16,7 @@ import {
     CardImage,
     Card
 } from "@components/Card";
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 export default function Home() {
     return (
@@ -24,6 +25,7 @@ export default function Home() {
                 title="Ferrero Machines - Maquina para hacer empanadas 🚀"
                 description="Discover NutriTrack, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
             />
+            <FloatingWhatsApp phoneNumber="+573204061224"/>
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
                 <HomeBanner />

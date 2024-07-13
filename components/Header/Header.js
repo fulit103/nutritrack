@@ -29,7 +29,8 @@ export const Header = () => {
                 </div>
                 <SectionContainer className="flex items-center ml-auto">
                     {/* <Nav /> */}
-                    <ButtonGroup className="hidden md:block">
+                    <label className="px-4">Tel: +57 (320) 4061224</label>
+                    <ButtonGroup className="hidden md:block">                        
                         {/* <a
                             role="button"
                             href="https://github.com/christian-luntok/nutritrack"
@@ -38,7 +39,7 @@ export const Header = () => {
                             Get Template
                             <Icon icon="material-symbols:arrow-forward-rounded" />
                         </a> */}
-                        <WhatsAppButton phoneNumber="+573147421820"/>
+                        <WhatsAppButton phoneNumber="+573204061224"/>
                     </ButtonGroup>
                 </SectionContainer>
             </SectionContainer>
