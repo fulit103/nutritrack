@@ -40,6 +40,11 @@ const DATA = [
                 label: "Facebook",
                 href: "https://www.facebook.com/FerreroFoodMachines/",
                 target: "_blank"
+            },
+            {
+                label: "YouTube",
+                href: "https://www.youtube.com/@ferrero.machines",
+                target: "_blank"
             }
         ]
     }
