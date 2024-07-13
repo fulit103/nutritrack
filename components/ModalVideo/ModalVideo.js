@@ -1,7 +1,7 @@
 import { useState, useRef, Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import Image from 'next/image'
-import VideoThumb from '@public/modal-video-thumb.jpg'
+import VideoThumb from '@public/modal-video-thumb2.jpg'
 
 export const ModalVideo = ({
   thumb = VideoThumb,
