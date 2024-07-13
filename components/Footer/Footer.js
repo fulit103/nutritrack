@@ -93,7 +93,7 @@ export const Footer = () => {
                                 {DATA.map((footerLinks) => (
                                     <div
                                         key={footerLinks.title}
-                                        className="footer-menu--container col-span-1 md:col-span-4"
+                                        className="footer-menu--container col-span-1 md:col-span-3"
                                     >
                                         <h3 className="font-bold text-base mb-2">
                                             {footerLinks.title}
@@ -122,6 +122,46 @@ export const Footer = () => {
                                         </ul>
                                     </div>
                                 ))}
+                                <div className="footer-menu--container col-span-1 md:col-span-6">
+                                    <h3 className="font-bold text-base mb-2">
+                                        Contáctanos
+                                    </h3>
+                                    <ul className="footer-menu--list">
+                                        <li className="footer-menu--list-item gap-2">
+                                            <a
+                                                className="mb-2 block w-auto font-medium transition-colors duration-300 hover:underline"
+                                                href="tel:+573204061224"
+                                            >
+                                                + 1   917 310 1240 (United States)
+                                            </a>
+                                        </li>
+                                        <li className="footer-menu--list-item gap-2">
+                                            <a
+                                                className="mb-2 block w-auto font-medium transition-colors duration-300 hover:underline"
+                                                href="tel:+573204061224"
+                                            >
+                                                +57 (320) 4061224 (Colombia)
+                                            </a>
+                                        </li>
+                                        <li className="footer-menu--list-item gap-2">
+                                            <a
+                                                className="mb-2 block w-auto font-medium transition-colors duration-300 hover:underline"
+                                                href="tel:+573204061224"
+                                            >
+                                                +57 (320) 406 1224 (Colombia)
+                                            </a>
+                                        </li>
+                                        <li className="footer-menu--list-item gap-2">
+                                            <a
+                                                className="mb-2 block w-auto font-medium transition-colors duration-300 hover:underline"
+                                                href="mailto:contactenos@ferrero-machines.com"
+                                            >contactenos@ferrero-machines.com</a>
+                                        </li>
+                                        <li className="footer-menu--list-item gap-2">
+                                            Cra 6 # 27-61, Pereira, Colombia
+                                        </li>                                    
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
