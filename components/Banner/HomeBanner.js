@@ -8,8 +8,12 @@ import { Icon } from "@iconify/react";
 import Image from "next/image";
 import { ModalVideo } from "@components/ModalVideo";
 import { SliderButton } from '@typeform/embed-react'
+import { Popup } from "@typebot.io/nextjs";
+import { useState } from "react";
 
 export const HomeBanner = () => {
+    const [openTypebot, setOpenTypeBot] =  useState(false);
+
     return (
         <SectionContainer className="page-banner--container py-16">
             <SectionContainer className="page-banner--inner-container wrap wrap-px z-10">                            
@@ -41,6 +45,13 @@ export const HomeBanner = () => {
                                Mas Información
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a> */}
+
+                            <a role="button" className="btn btn--primary" onClick={() => setOpenTypeBot(true)}>
+                                Descubre tu Máquina Ideal
+                            </a>
+
+                            <Popup isOpen={openTypebot} typebot="lead-generation-kkg80pz" onClose={() => setOpenTypeBot(false)} />
+
                         </ButtonGroup>
                     </div>
                 </MotionBTTContainer>
