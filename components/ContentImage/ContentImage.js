@@ -2,6 +2,8 @@ import { SectionContainer } from "@components/Section";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import { v4 as uuid } from "uuid";
+import { ModalVideo } from "@components/ModalVideo";
+import VideoThumb from '@public/empanadas-facil-usar.jpeg';
 
 const ContentImageData = [
     {
@@ -10,7 +12,8 @@ const ContentImageData = [
         content:
             "La máquina no requiere compresor ni elementos neumáticos, es compacta y fácil de instalar, solo necesitas conectarla a la electricidad. Un solo operario puede producir hasta 720 empanadas por hora, y con dos operarios adicionales, la producción puede escalar hasta 2,160 empanadas por hora.",
         align: "right",
-        image: "/features1.png"
+        image: "/empanadas-facil-usar.jpeg",
+        video: "/facil-usar-maquina-empanadas.mp4"
     },
     {
         id: uuid(),
@@ -36,14 +39,24 @@ export const ContentImage = () => {
                             item.align === "left" ? "md:order-1" : ""
                         }`}
                     >
-                        <Image
+                        {item.video ? <ModalVideo
+                            thumb={VideoThumb}
+                            thumbWidth={768}
+                            thumbHeight={432}
+                            thumbAlt="Modal video thumbnail"
+                            video={item.video}
+                            videoWidth={1920}
+                            videoHeight={1080} /> : 
+                            
+                            <Image
                             src={item.image}
                             width={512}
                             height={512}
                             objectFit="cover"
                             alt="Process Banner 1"
                             className="drop-shadow-xl w-full offset-y-0 offset-x-8 blur-16"
-                        />
+                        />}
+                        
                     </div>
                     <div
                         className={`process-item--content ${
