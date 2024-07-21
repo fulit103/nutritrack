@@ -16,16 +16,29 @@ import {
     CardImage,
     Card
 } from "@components/Card";
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
+// import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import { Icon } from "@iconify/react";
 
 export default function Home() {
+
+    const onClick = () => {
+        console.log('clicked');
+        //open whatsapp
+        window.open('https://wa.me/573204061224', '_blank');
+    }
+
     return (
         <Layout className="">
             <SEO
                 title="Ferrero Machines - Maquina para hacer empanadas 🚀"
                 description="Discover NutriTrack, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
             />
-            <FloatingWhatsApp phoneNumber="+573204061224"/>
+            {/* <FloatingWhatsApp phoneNumber="+573204061224"/> */}
+            <div className="fixed bottom-6 right-6 z-50">
+                <button className="bg-[#25D366] hover:bg-[#20BD5C] text-white font-bold py-5 px-5 rounded-full shadow-lg" onClick={onClick}>
+                    <Icon icon="ic:baseline-whatsapp" className="w-11 h-11"  />
+                </button>
+            </div>
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
                 <HomeBanner />
