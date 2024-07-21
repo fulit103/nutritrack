@@ -35,7 +35,6 @@
         "@next/font": "^13.1.2",
         "@typebot.io/js": "^0.3.6",
         "@typebot.io/nextjs": "^0.3.6",
-        "@typeform/embed-react": "^3.19.0",
         "@vercel/og": "^0.0.21",
         "eslint-config-next": "13.1.2",
         "framer-motion": "^10.11.2",

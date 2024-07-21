@@ -1,13 +1,13 @@
-import { BadgeGroup, BadgeIcon, BadgeMessage } from "@components/Badge";
-import { Button, ButtonGroup } from "@components/Button";
+// import { BadgeGroup, BadgeIcon, BadgeMessage } from "@components/Badge";
+import { ButtonGroup } from "@components/Button";
 import { Content } from "@components/Content";
 import { MotionBTTContainer, MotionInfiniteImage } from "@components/Motion";
 import { SectionContainer } from "@components/Section";
 import { PageTitle } from "@components/Title";
-import { Icon } from "@iconify/react";
-import Image from "next/image";
+//import { Icon } from "@iconify/react";
+//import Image from "next/image";
 import { ModalVideo } from "@components/ModalVideo";
-import { SliderButton } from '@typeform/embed-react'
+//import { SliderButton } from '@typeform/embed-react'
 import { Popup } from "@typebot.io/nextjs";
 import { useState } from "react";
 
@@ -33,9 +33,9 @@ export const HomeBanner = () => {
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
                             
-                            <SliderButton id="GhZiV4sJ" style={{ fontSize: 20 }} className="btn btn--secondary">
+                            {/* <SliderButton id="GhZiV4sJ" style={{ fontSize: 20 }} className="btn btn--secondary">
                                 Solicitar Cotización
-                            </SliderButton>
+                            </SliderButton> */}
                             {/* <Button href="#features">Caracteristicas</Button>
                             <a
                                 role="button"
@@ -46,7 +46,7 @@ export const HomeBanner = () => {
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a> */}
 
-                            <a role="button" className="btn btn--primary" onClick={() => setOpenTypeBot(true)}>
+                            <a role="button" className="btn btn--secondary" onClick={() => setOpenTypeBot(true)}>
                                 Descubre tu Máquina Ideal
                             </a>
 

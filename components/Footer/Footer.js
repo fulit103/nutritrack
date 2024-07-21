@@ -2,8 +2,8 @@ import { SectionContainer } from "@components/Section";
 import Link from "next/link";
 import Image from "next/image";
 import { ButtonGroup } from "@components/Button";
-import { SliderButton } from '@typeform/embed-react'
-import { Icon } from "@iconify/react";
+//import { SliderButton } from '@typeform/embed-react'
+//import { Icon } from "@iconify/react";
 
 const DATA = [
     {
@@ -74,9 +74,9 @@ export const Footer = () => {
                                 </Link>
                                 {/* Get Template button; remove if not used */}
                                 <ButtonGroup alignment="left">
-                                    <SliderButton id="GhZiV4sJ" style={{ fontSize: 20 }} className="btn btn--secondary">
+                                    {/* <SliderButton id="GhZiV4sJ" style={{ fontSize: 20 }} className="btn btn--secondary">
                                         Solicitar Cotización
-                                    </SliderButton>
+                                    </SliderButton> */}
                                     {/* <a
                                         role="button"
                                         href="https://github.com/christian-luntok/nutritrack"
