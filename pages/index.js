@@ -90,8 +90,9 @@ export default function Home() {
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/features4.png"
+                                            src="/mas-caracteristicas.jpeg"
                                             alt="Customizable Layouts image used."
+                                            imageClassName="rounded-md"
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
                                             Características Principales
@@ -135,8 +136,9 @@ export default function Home() {
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/features3.png"
+                                            src="/empanadas.jpeg"
                                             alt="Progress Tracking image used."
+                                            imageClassName="rounded-md"
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
                                             Innovación y Eficiencia
@@ -187,7 +189,7 @@ export default function Home() {
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
                             <PageTitle className="" type="default">
-                                Esto es lo que nuestros clientes tienen que decir sobre nuestras máquinas
+                                Esto es lo que nuestros clientes dicen sobre nuestras máquinas
                             </PageTitle>
                             <Columns />
                         </SectionContainer>

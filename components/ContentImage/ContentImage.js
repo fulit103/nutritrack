@@ -21,7 +21,7 @@ const ContentImageData = [
         content:
             "La máquina elimina la necesidad de esfuerzo físico para armar empanadas, reduciendo dolores musculares. Es una herramienta ideal para aumentar la producción sin complicaciones.",
         align: "left",
-        image: "/features2.png"
+        image: "/productividad.jpeg"
     }
 ];
 
@@ -53,8 +53,8 @@ export const ContentImage = () => {
                             width={512}
                             height={512}
                             objectFit="cover"
-                            alt="Process Banner 1"
-                            className="drop-shadow-xl w-full offset-y-0 offset-x-8 blur-16"
+                            alt="Process Banner 1"                            
+                            className="rounded-3xl shadow-2xl transition-shadow duration-300 ease-in-out drop-shadow-xl w-full offset-y-0 offset-x-8 blur-16"
                         />}
                         
                     </div>
