@@ -1,36 +1,33 @@
 import { SectionContainer } from "@components/Section";
 import { Icon } from "@iconify/react";
 import { v4 as uuid } from "uuid";
+import Image from "next/image";
 
 const ColumnData = [
     {
         id: uuid(),
-        title: "Emily J.",
-        icon: "carbon:user-avatar-filled-alt",
+        title: "Mauricio Muñoz (Deliempanadas)",
+        icon: "/mauricio.png",
+        profile: "/mauricio.png",
         content:
-            "NutriPlan has revolutionized my meal planning and nutrition journey. With its intuitive Notion template, I can effortlessly plan my meals, track my nutrition, and stay on top of my health goals. It's truly a game-changer!"
+            "Me gusto la maquina desde que la vi, no hace ruido y es muy facil de usar. La recomiendo."
     },
     {
         id: uuid(),
         title: "Jason F.",
         icon: "carbon:user-avatar-filled-alt",
+        profile: "/otro.png",
         content:
-            "I've tried various meal planning tools, but NutriPlan stands out from the rest. The customizable layouts and seamless recipe integration make it a breeze to create delicious and healthy meals. It's become an essential part of my wellness routine."
+            "La maquina es compacta, no necesita parte neumatica y produce hasta 2500 por hora, ha transformado nuestro negocio."
     },
     {
         id: uuid(),
-        title: "Miguel J.",
+        title: "Heliberto Anaya - Fábrica Trocanticos Santander",
         icon: "carbon:user-avatar-filled-alt",
         content:
-            "NutriPlan has made meal planning and tracking nutrition so much easier and enjoyable. The comprehensive features and user-friendly interface have helped me stay on track with my health goals. I highly recommend it to anyone looking for a convenient and effective solution."
+            "Muy buen servicio técnico, la maquina es muy eficiente y estoy muy agradecido con la maquina, en 1 hora y media hago la produccion del día."
     },
-    {
-        id: uuid(),
-        title: "Kim L.",
-        icon: "carbon:user-avatar-filled-alt",
-        content:
-            "I can't imagine my nutrition journey without NutriPlan. It has simplified the way I plan my meals and track my progress. The ability to customize layouts and easily integrate recipes has made healthy eating a breeze. It's been a true lifesaver!"
-    }
+    
 ];
 
 export const Columns = () => {
@@ -42,7 +39,8 @@ export const Columns = () => {
                     key={item.id}
                     className="benefits-list--item text-[#737373] text-left"
                 >
-                    <Icon icon={item.icon} className="mb-4 w-10 h-10 my-2" />
+                    {/* <Icon icon={item.icon} className="mb-4 w-10 h-10 my-2" /> */}
+                    { item.profile && <Image src={item.profile} width="100" height="100" className="w-[100px] h-[100px] rounded-full object-cover border-4 border-white shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"/>}
                     <h3 className="text-xl mb-2 font-medium text-black">
                         {item.title}
                     </h3>
