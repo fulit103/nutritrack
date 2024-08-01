@@ -6,7 +6,7 @@ import Image from "next/image";
 const ColumnData = [
     {
         id: uuid(),
-        title: "Mauricio Muñoz (Deliempanadas)",
+        title: "Mauricio Muñoz DeliEmpanadas Bogotá, D.C.",
         icon: "/mauricio.png",
         profile: "/mauricio.png",
         content:
@@ -14,19 +14,28 @@ const ColumnData = [
     },
     {
         id: uuid(),
-        title: "Jason F.",
+        title: "Diego Armando Forero Empanadas La Ricura Pereira, Risaralda.",
         icon: "carbon:user-avatar-filled-alt",
-        profile: "/otro.png",
+        profile: "/empanadas-la-ricura2.jpg",
         content:
             "La maquina es compacta, no necesita parte neumatica y produce hasta 2500 por hora, ha transformado nuestro negocio."
     },
     {
         id: uuid(),
-        title: "Heliberto Anaya - Fábrica Trocanticos Santander",
-        icon: "carbon:user-avatar-filled-alt",
+        title: "Heliberto Anaya Empanadas By Jeimy Soacha, Cundinamarca.",
+        profile: "/empanadas-by-jeimy.jpeg",
         content:
             "Muy buen servicio técnico, la maquina es muy eficiente y estoy muy agradecido con la maquina, en 1 hora y media hago la produccion del día."
     },
+
+    {
+        id: uuid(),
+        title: "Carlos Eduardo Enríquez Panadería 20 de Julio Pasto, Nariño.",        
+        profile: "/otro.png",
+        content:
+            "La maquina es muy facil de usar, no hace ruido y es muy eficiente, la recomiendo."
+        
+    }
     
 ];
 
