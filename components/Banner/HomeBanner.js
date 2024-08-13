@@ -50,7 +50,12 @@ export const HomeBanner = () => {
                                 Descubre tu Máquina Ideal
                             </a>
 
-                            <Popup isOpen={openTypebot} typebot="lead-generation-kkg80pz" onClose={() => setOpenTypeBot(false)} />
+                            <Popup 
+                                isOpen={openTypebot}
+                                typebot="lead-generations-ferrero-81pfhfu"
+                                onClose={() => setOpenTypeBot(false)}
+                                apiHost="https://typebotviewer.webspro.co"
+                            />
 
                         </ButtonGroup>
                     </div>
