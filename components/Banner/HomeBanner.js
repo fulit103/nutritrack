@@ -47,7 +47,7 @@ export const HomeBanner = () => {
                             </a> */}
 
                             <a role="button" className="btn btn--secondary" onClick={() => setOpenTypeBot(true)}>
-                                Descubre tu Máquina Ideal
+                                Solicitar Cotización
                             </a>
 
                             <Popup 
