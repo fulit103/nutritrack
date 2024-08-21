@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Icon } from "@iconify/react";
 
 
 export const WhatsAppButton = ({ phoneNumber }) => {
@@ -10,7 +11,9 @@ export const WhatsAppButton = ({ phoneNumber }) => {
             target="_blank"
             rel="noopener noreferrer"
         >            
-            Contáctanos en WhatsApp
+            <span className="block sm:hidden">Contáctanos </span> {/* Short text for mobile */}
+            <span className="hidden sm:block">Contáctanos </span> {/* Long text for desktop */}
+            <Icon icon="ic:baseline-whatsapp" className="pl-1 w-6 h-6"  />
         </a>
     );
 };

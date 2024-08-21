@@ -29,8 +29,8 @@ export const Header = () => {
                 </div>
                 <SectionContainer className="flex items-center ml-auto">
                     {/* <Nav /> */}
-                    <label className="px-4">Tel: +57 (320) 4061224</label>
-                    <ButtonGroup className="hidden md:block">                        
+                    <label className="hidden md:block px-4">Tel: +57 (320) 4061224</label>
+                    <ButtonGroup className="">                        
                         {/* <a
                             role="button"
                             href="https://github.com/christian-luntok/nutritrack"
