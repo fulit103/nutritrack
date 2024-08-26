@@ -200,7 +200,7 @@ export default function Home() {
                     >
                         <SectionContainer id="faq" className="faq">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>Preguntas Frequentes</BadgeMessage>
+                                <BadgeMessage>Preguntas Frecuentes</BadgeMessage>
                             </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
