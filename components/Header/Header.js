@@ -39,7 +39,7 @@ export const Header = () => {
                             Get Template
                             <Icon icon="material-symbols:arrow-forward-rounded" />
                         </a> */}
-                        <WhatsAppButton phoneNumber="573204061224"/>
+                        <WhatsAppButton phoneNumber="573122668458"/>
                     </ButtonGroup>
                 </SectionContainer>
             </SectionContainer>
