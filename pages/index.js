@@ -24,7 +24,8 @@ export default function Home() {
     const onClick = () => {
         console.log('clicked');
         //open whatsapp
-        window.open('https://wa.me/573122668458', '_blank');
+        window.dataLayer.push({'event': 'conversion_event_outbound_click'})
+        window.open('https://wa.me/573122668458', '_blank');        
     }
 
     return (
