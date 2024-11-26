@@ -10,6 +10,7 @@ import { ModalVideo } from "@components/ModalVideo";
 //import { SliderButton } from '@typeform/embed-react'
 import { Popup } from "@typebot.io/nextjs";
 import { useState } from "react";
+import { WhatsAppButton } from "@components/WhatsAppButton";
 
 export const HomeBanner = () => {
     const [openTypebot, setOpenTypeBot] =  useState(false);
@@ -46,16 +47,18 @@ export const HomeBanner = () => {
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a> */}
 
-                            <a role="button" className="btn btn--secondary" onClick={() => setOpenTypeBot(true)}>
+                            {/* <a role="button" className="btn btn--secondary" onClick={() => setOpenTypeBot(true)}>
                                 Solicitar Cotización
-                            </a>
+                            </a> */}
 
-                            <Popup 
+                            <WhatsAppButton phoneNumber="573122668458" buttonText="Solicitar Cotización" />
+
+                            {/* <Popup 
                                 isOpen={openTypebot}
                                 typebot="lead-generations-ferrero-81pfhfu"
                                 onClose={() => setOpenTypeBot(false)}
                                 apiHost="https://typebotviewer.webspro.co"
-                            />
+                            /> */}
 
                         </ButtonGroup>
                     </div>
