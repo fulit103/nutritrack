@@ -14,7 +14,7 @@ export const WhatsAppButton = ({ phoneNumber, buttonText = "Contáctanos" }) => 
             });
         }
 
-        window.open(`https://wa.me/${phoneNumber}`, '_blank', 'noopener,noreferrer');
+        window.open('https://walink.co/891365', '_blank', 'noopener,noreferrer');
     };
 
     return (
