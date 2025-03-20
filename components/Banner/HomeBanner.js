@@ -51,7 +51,7 @@ export const HomeBanner = () => {
                                 Solicitar Cotización
                             </a> */}
 
-                            <WhatsAppButton phoneNumber="573122668458" buttonText="Solicitar Cotización" />
+                            <WhatsAppButton buttonText="Solicitar Cotización" whatsappLink="https://walink.co/891365" />
 
                             {/* <Popup 
                                 isOpen={openTypebot}

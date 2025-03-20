@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Icon } from "@iconify/react";
 
-export const WhatsAppButton = ({ phoneNumber, buttonText = "Contáctanos" }) => {
+export const WhatsAppButton = ({ phoneNumber, buttonText = "Contáctanos", whatsappLink = "https://walink.co/891365" }) => {
     const openWhatsApp = (e) => {
         e.preventDefault();
         
@@ -14,7 +14,7 @@ export const WhatsAppButton = ({ phoneNumber, buttonText = "Contáctanos" }) => 
             });
         }
 
-        window.open('https://walink.co/891365', '_blank', 'noopener,noreferrer');
+        window.open(whatsappLink, '_blank', 'noopener,noreferrer');
     };
 
     return (
@@ -34,4 +34,5 @@ export const WhatsAppButton = ({ phoneNumber, buttonText = "Contáctanos" }) => 
 WhatsAppButton.propTypes = {
     phoneNumber: PropTypes.string.isRequired,
     buttonText: PropTypes.string,
+    whatsappLink: PropTypes.string
 };
