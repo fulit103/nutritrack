@@ -36,7 +36,7 @@ export default function Home() {
             />
             {/* <FloatingWhatsApp phoneNumber="+573204061224"/> */}
             <div className="fixed bottom-6 right-6 z-50">
-                <button className="bg-[#25D366] hover:bg-[#20BD5C] text-white font-bold py-3 px-3 rounded-full shadow-lg" onClick={onClick}>
+                <button className="bg-[#25D366] hover:bg-[#20BD5C] text-white font-bold py-3 px-3 rounded-full shadow-lg button-whatsapp-footer" onClick={onClick}>
                     <Icon icon="ic:baseline-whatsapp" className="w-11 h-11"  />
                 </button>
             </div>
