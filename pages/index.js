@@ -34,7 +34,7 @@ export default function Home() {
                 title="Ferrero Machines - Maquina para hacer empanadas 🚀"
                 description="Discover NutriTrack, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
             />
-            {/* <FloatingWhatsApp phoneNumber="+573204061224"/> */}
+            {/* <FloatingWhatsApp phoneNumber="+573122668458"/> */}
             <div className="fixed bottom-6 right-6 z-50">
                 <button className="bg-[#25D366] hover:bg-[#20BD5C] text-white font-bold py-3 px-3 rounded-full shadow-lg boton-whatsapp-cta" onClick={onClick}>
                     <Icon icon="ic:baseline-whatsapp" className="w-11 h-11"  />
