@@ -130,7 +130,7 @@ export const Footer = () => {
                                         <li className="footer-menu--list-item gap-2">
                                             <a
                                                 className="mb-2 block w-auto font-medium transition-colors duration-300 hover:underline"
-                                                href="tel:+573204061224"
+                                                href="tel:+573122668458"
                                             >
                                                 + 1   917 310 1240 (United States)
                                             </a>
@@ -138,17 +138,17 @@ export const Footer = () => {
                                         <li className="footer-menu--list-item gap-2">
                                             <a
                                                 className="mb-2 block w-auto font-medium transition-colors duration-300 hover:underline"
-                                                href="tel:+573204061224"
+                                                href="tel:+573122668458"
                                             >
-                                                +57 (320) 4061224 (Colombia)
+                                                +57 (312) 2668458 (Colombia)
                                             </a>
                                         </li>
                                         <li className="footer-menu--list-item gap-2">
                                             <a
                                                 className="mb-2 block w-auto font-medium transition-colors duration-300 hover:underline"
-                                                href="tel:+573204061224"
+                                                href="tel:+573122668458"
                                             >
-                                                +57 (320) 406 1224 (Colombia)
+                                                +57 (312) 2668458 (Colombia)
                                             </a>
                                         </li>
                                         <li className="footer-menu--list-item gap-2">
