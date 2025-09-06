@@ -29,7 +29,7 @@ export const Header = () => {
                 </div>
                 <SectionContainer className="flex items-center ml-auto">
                     {/* <Nav /> */}
-                    <label className="hidden md:block px-4">Tel: +57 (320) 4061224</label>
+                    <label className="hidden md:block px-4">Tel: +57 (312) 2668458</label>
                     <ButtonGroup className="">                        
                         {/* <a
                             role="button"
@@ -39,7 +39,7 @@ export const Header = () => {
                             Get Template
                             <Icon icon="material-symbols:arrow-forward-rounded" />
                         </a> */}
-                        <WhatsAppButton whatsappLink="https://walink.co/891365"/>
+                        <WhatsAppButton whatsappLink="https://walink.co/cf2269"/>
                     </ButtonGroup>
                 </SectionContainer>
             </SectionContainer>

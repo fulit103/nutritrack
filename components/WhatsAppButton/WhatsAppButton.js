@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Icon } from "@iconify/react";
 
-export const WhatsAppButton = ({ phoneNumber, buttonText = "Contáctanos", whatsappLink = "https://walink.co/891365" }) => {
+export const WhatsAppButton = ({ phoneNumber, buttonText = "Contáctanos", whatsappLink = "https://walink.co/cf2269" }) => {
     const openWhatsApp = (e) => {
         e.preventDefault();
         

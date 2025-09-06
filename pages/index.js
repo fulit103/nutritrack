@@ -25,7 +25,7 @@ export default function Home() {
         console.log('clicked');
         //open whatsapp
         window.dataLayer.push({'event': 'conversion_event_outbound_click'})
-        window.open('https://walink.co/891365', '_blank');        
+        window.open('https://walink.co/cf2269', '_blank');        
     }
 
     return (
