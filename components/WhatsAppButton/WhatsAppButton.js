@@ -20,13 +20,12 @@ export const WhatsAppButton = ({ phoneNumber, buttonText = "Contáctanos", whats
     return (
         <a
             onClick={openWhatsApp}
-            className="flex items-center px-4 py-2 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75"
+            className="inline-flex items-center px-3 py-2 bg-green-500 text-white font-medium text-sm rounded-lg shadow-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75 transition-colors duration-200"
             role="button"
             tabIndex={0}
-        >            
-            <span className="block sm:hidden">{buttonText} </span>
-            <span className="hidden sm:block">{buttonText} </span>
-            <Icon icon="ic:baseline-whatsapp" className="pl-1 w-6 h-6"  />
+        >
+            <span className="mr-2">{buttonText}</span>
+            <Icon icon="ic:baseline-whatsapp" className="w-4 h-4" />
         </a>
     );
 };
