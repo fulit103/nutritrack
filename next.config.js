@@ -24,6 +24,30 @@ const nextConfig = {
         siteImagePreviewUrl: "/images/preview.jpeg",
         twitterHandle: "@your_handle"
     },
+    async redirects() {
+        return [
+            {
+                source: "/maquina-para-fabricar-empanadas-ultra",
+                destination: "/",
+                permanent: true
+            },
+            {
+                source: "/maquina-para-hacer-empanadas-super-youtube",
+                destination: "/",
+                permanent: true
+            },
+            {
+                source: "/maquina-para-fabricar-empanadas-opti",
+                destination: "/",
+                permanent: true
+            },
+            {
+                source: "/maquina-para-hacer-empanadas-gads-2",
+                destination: "/",
+                permanent: true
+            }
+        ];
+    },
     headers() {
         return [
             {
