@@ -45,6 +45,16 @@ const nextConfig = {
                 source: "/maquina-para-hacer-empanadas-gads-2",
                 destination: "/",
                 permanent: true
+            },
+            {
+                source: "/maquina-para-fabricar-empanadas-super",
+                destination: "/",
+                permanent: true
+            },
+            {
+                source: "/contacto",
+                destination: "/",
+                permanent: true
             }
         ];
     },
