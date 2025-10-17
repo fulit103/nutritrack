@@ -32,7 +32,7 @@ export default function Home() {
         <Layout className="">
             <SEO
                 title="Ferrero Machines - Maquina para hacer empanadas 🚀"
-                description="Discover NutriTrack, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
+                description="La máquina perfecta para tu negocio de empanadas,Diseñadas para hacer más de 2000 empanadas por hora, 100% eléctrica, solo la conectas y empiezas a trabajar de inmediato."
             />
             {/* <FloatingWhatsApp phoneNumber="+573122668458"/> */}
             <div className="fixed bottom-6 right-6 z-50">
